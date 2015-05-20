@@ -19,7 +19,6 @@ html {
 body { 
     margin: 0;
     font-family: sans-serif;
-    color: $blue-light;
     width: 100%;
     font-size: 62.5%;
 }
@@ -132,13 +131,7 @@ input:hover {
 input::-webkit-input-placeholder,
 input::-moz-placeholder,
 input:-moz-placeholder,
-input::-ms-input-placeholder{
-    -webkit-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
+input::-ms-input-placeholder,
 input:hover::-webkit-input-placeholder,
 input:hover::-moz-placeholder,
 input:hover:-moz-placeholder,
@@ -204,12 +197,4 @@ li {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-*::selection {
-    background: $highlight-green;
-    color: $post-bg;
-}
-*::-moz-selection {
-    background: $highlight-green;
-    color: $post-bg;
 }
